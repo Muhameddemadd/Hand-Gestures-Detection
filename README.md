@@ -60,7 +60,6 @@ But when I applied this to control the robotic arm, it did not work as expected 
 
 ## Inspiration
 AI is slowly seeping to make our lives easier, but it can do more -much more- than controlling a robotic arm -which probably you won’t need in your daily life- here you are some examples you can use Hand Gestures Recognition to escape the ordinary:
-* control your sound system - check this out
-* control your lightening system - check this out
-* Virual AI mouse to control your laptop.
+* Home automation -check this out
+* Automotive check [this](https://www.youtube.com/watch?v=wqvAPskg_k0) out
 * Hand gestures to speech and vice versa to communicate with the disabled.
