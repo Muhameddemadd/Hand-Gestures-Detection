@@ -1,7 +1,8 @@
 # Hand-Gestures-Detection with ResNet50 used for controlling SCARA Robotic Arm.
 
 Hand gestures detection using Tensorflow, Keras and pre-trained model ResNet50 then applying the final output on real-time application.
-![alt text](https://drive.google.com/drive/my-drive)
+
+ ![](https://github.com/Muhameddemadd/Hand-Gestures-Detection/blob/master/Readme_imgs/IMG_2319%20(3).gif)
 
 
 ## Introduction
@@ -10,8 +11,8 @@ Hand gestures …..
 When it comes to real-time AI applications, Processing time and accuracy mean alot. So it’s preferred to try many approaches then choosing the best of them to get the desired results.
  
 The approaches I went through to control the robotic arm using the hand:
-The position of the hand on the pixel grid.
-Trained model to classify the different hand gestures.
+* The position of the hand on the pixel grid.
+* Trained model to classify the different hand gestures.
 
 
 ## Getting Started
@@ -22,13 +23,19 @@ Trained model to classify the different hand gestures.
 * Numpy
 
 ## Dataset
-### The dataset is manually collected and it has 4k examples divided into six classes:
+### The dataset is manually collected and it has 4k examples divided into 10 classes:
+For the robotic arm:
 * Up
 * Down
 * Right
 * Left
 * Grab
 * Release 
+can be used for another application:
+* Peace
+* Perfect 
+* I love you
+* Good luck
 
 ## Dataset Sample
 imgggggggggggggg
