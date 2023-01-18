@@ -6,7 +6,7 @@ Hand gestures detection using Tensorflow, Keras and pre-trained model ResNet50 t
 
 
 ## Introduction
-Hand gestures …..
+Snap your fingers and make your coffee maker brew you a fresh cup. Wave a hand near your smart TV and switch on your favorite show. Drag your hand down and drop down the curtains. Grab your hand fist to turn off the lights. How great would it be to get things done just by gesturing? It’s not that unrealistic anymore: hand tracking and gesture recognition technologies are penetrating multiple industries. But do we really need capabilities like these? And what is the true value of real-time hand gesture recognition (HGR)? In this project we will discover how to build a Hand Gestures Recognition model and apply it to a real-time application.
 
 When it comes to real-time AI applications, Processing time and accuracy mean alot. So it’s preferred to try many approaches then choosing the best of them to get the desired results.
  
@@ -31,6 +31,7 @@ For the robotic arm:
 * Left
 * Grab
 * Release 
+
 can be used for another application:
 * Peace
 * Perfect 
@@ -38,17 +39,16 @@ can be used for another application:
 * Good luck
 
 ## Dataset Sample
-imgggggggggggggg
+![](https://github.com/Muhameddemadd/Hand-Gestures-Detection/blob/master/Readme_imgs/collage%20(1).jpg)
 
 ## Model Architecture
 The model uses pre-trained ResNet50 and three more layers to train the data:
-*Flatten layer
-*Dense layer with 512 neurons with Relu activation function
-*Dense layer with 6 neurons: one for each class with sigmoid activation function
+* Flatten layer
+* Dense layer with 512 neurons with Relu activation function
+* Dense layer with 6 neurons: one for each class with sigmoid activation function
 
 ## Model Summary
-
-
+![](https://github.com/Muhameddemadd/Hand-Gestures-Detection/blob/master/Readme_imgs/Untitled.jpg)
 
 ## The pixel grid approach
 Img
