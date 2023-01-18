@@ -59,26 +59,8 @@ By tracking a specific pixel of one landmark of the hand like no.9 which refers 
 But when I applied this to control the robotic arm, it did not work as expected because the processor every time the position changes, it comare it to the old one then send an order to the arm to move, even this takes just some milliseconds, the motors did not move smoothly. So I decided to take the other approach.
 
 ## Inspiration
-AI is slowly seeping to make our lives easier, but it can do more -much more- than controlling a robotic arm -which probably you won’t need in your daily life- here you are some examples you can use Hand Gestures Detection to escape the ordinary:
-*control your sound system - check this out
-*control your lightening system - check this out
-*Virual AI mouse to control your laptop.
-*Hand gestures to speech and vice versa to communicate with the disabled.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+AI is slowly seeping to make our lives easier, but it can do more -much more- than controlling a robotic arm -which probably you won’t need in your daily life- here you are some examples you can use Hand Gestures Recognition to escape the ordinary:
+* control your sound system - check this out
+* control your lightening system - check this out
+* Virual AI mouse to control your laptop.
+* Hand gestures to speech and vice versa to communicate with the disabled.
