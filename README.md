@@ -21,9 +21,10 @@ The approaches I went through to control the robotic arm using the hand:
 * TensorFlow 2.x
 * OpenCV
 * Numpy
+* Mediapipe
 
 ## Dataset
-### The dataset is manually collected and it has 4k examples divided into 10 classes:
+### The dataset is manually with mediapipe collected and it has 4k examples divided into 10 classes:
 For the robotic arm:
 * Up
 * Down
@@ -52,6 +53,7 @@ The model uses pre-trained ResNet50 and three more layers to train the data:
 
 ## The pixel grid approach
 Img
+
 By tracking a specific pixel of one landmark of the hand like no.9 which refers to the MIDDLE_FINGER_MCP, we can kow the direction of the hand movement. Assuming that moving right and moving up will increase the values of x and y respectively, For example if the current position of the landmark is (x,y) and the new position is (x+100,y) so the direction of the hand movement is to the right. You can check the whole process in pixel_grid.py 
 
 But when I applied this to control the robotic arm, it did not work as expected because the processor every time the position changes, it comare it to the old one then send an order to the arm to move, even this takes just some milliseconds, the motors did not move smoothly. So I decided to take the other approach.
