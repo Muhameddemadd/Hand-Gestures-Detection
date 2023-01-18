@@ -1,4 +1,4 @@
-# Hand-Gestures-Detection with ResNet50 used for controlling SCARA Robotic Arm.
+# Hand-Gestures-Recongnition with ResNet50 used for controlling SCARA Robotic Arm.
 
 Hand gestures detection using Tensorflow, Keras and pre-trained model ResNet50 then applying the final output on real-time application.
 
