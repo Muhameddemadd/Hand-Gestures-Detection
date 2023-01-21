@@ -6,7 +6,7 @@ Hand gestures detection using Tensorflow, Keras and pre-trained model ResNet50 t
 
 
 ## Introduction
-Snap your fingers and make your coffee maker brew you a fresh cup. Wave a hand near your smart TV and switch on your favorite show. Drag your hand down and drop down the curtains. Grab your hand fist to turn off the lights. How great would it be to get things done just by gesturing? It’s not that unrealistic anymore: hand tracking and gesture recognition technologies are penetrating multiple industries. But do we really need capabilities like these? And what is the true value of real-time hand gesture recognition (HGR)? In this project we will discover how to build a Hand Gestures Recognition model and apply it to a real-time application.
+Snap your fingers and make your coffee maker brew you a fresh cup. Wave a hand near your smart TV and switch on your favorite show. Drag your hand down and drop down the curtains. Grab your hand fist to turn off the lights. How great would it be to get things done just by gesturing? It’s not that unrealistic anymore: hand tracking and gesture recognition technologies are penetrating multiple industries. But do we really need capabilities like these? In this project we will discover how to build a Hand Gestures Recognition model then apply it to a real-time application.
 
 When it comes to real-time AI applications, Processing time and accuracy mean alot. So it’s preferred to try many approaches then choosing the best of them to get the desired results.
  
@@ -59,8 +59,3 @@ By tracking a specific pixel of one landmark of the hand like no.9 which refers 
 
 But when I applied this to control the robotic arm, it did not work as expected because the processor every time the position changes, it comare it to the old one then send an order to the arm to move, even this takes just some milliseconds, the motors did not move smoothly. So I decided to take the other approach.
 
-## Inspiration
-AI is slowly seeping to make our lives easier, but it can do more -much more- than controlling a robotic arm -which probably you won’t need in your daily life- here you are some examples you can use Hand Gestures Recognition to escape the ordinary:
-* Home automation -check this out
-* Automotive check [this](https://www.youtube.com/watch?v=wqvAPskg_k0) out
-* Hand gestures to speech and vice versa to communicate with the disabled.
