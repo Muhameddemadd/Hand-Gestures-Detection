@@ -24,7 +24,7 @@ The approaches I went through to control the robotic arm using the hand:
 * Mediapipe
 
 ## Dataset
-### The dataset is manually with mediapipe collected and it has 4k examples divided into 10 classes:
+### The [dataset](https://drive.google.com/file/d/1wpktVV_S7TxmSbABrLr9mL5WsnYU3d8Z/view?usp=share_link) is manually collected with mediapipe and it has 10k examples divided into 10 classes:
 For the robotic arm:
 * Up
 * Down
@@ -40,16 +40,16 @@ can be used for another application:
 * Good luck
 
 ## Dataset Sample
-![](https://github.com/Muhameddemadd/Hand-Gestures-Detection/blob/master/Readme_imgs/collage%20(1).jpg)
+![](https://github.com/Muhameddemadd/Hand-Gestures-Recognition/blob/master/Readme_imgs/sample.png)
 
 ## Model Architecture
 The model uses pre-trained ResNet50 and three more layers to train the data:
 * Flatten layer
 * Dense layer with 512 neurons with Relu activation function
-* Dense layer with 6 neurons: one for each class with sigmoid activation function
+* Dense layer with 10 neurons: one for each class with sigmoid activation function
 
 ## Model Summary
-![](https://github.com/Muhameddemadd/Hand-Gestures-Detection/blob/master/Readme_imgs/Untitled.jpg)
+![](https://github.com/Muhameddemadd/Hand-Gestures-Recognition/blob/master/Readme_imgs/summary.png)
 
 ## The pixel grid approach
 Img
