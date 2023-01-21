@@ -48,6 +48,8 @@ The model uses pre-trained ResNet50 and three more layers to train the data:
 * Dense layer with 512 neurons with Relu activation function
 * Dense layer with 10 neurons: one for each class with sigmoid activation function
 
+![](https://github.com/Muhameddemadd/Hand-Gestures-Recognition/blob/master/Readme_imgs/ResNet%20arch.png)
+
 ## Model Summary
 ![](https://github.com/Muhameddemadd/Hand-Gestures-Recognition/blob/master/Readme_imgs/summary.png)
 
