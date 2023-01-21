@@ -1,0 +1,10 @@
+0 up
+1 down
+2 right
+3 left
+4 open
+5 close
+6 love you
+7 good luck
+8 Perfect
+9 peace
