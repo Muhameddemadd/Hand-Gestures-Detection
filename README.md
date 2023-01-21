@@ -23,8 +23,13 @@ The approaches I went through to control the robotic arm using the hand:
 * Numpy
 * Mediapipe
 
+### Installation
+```
+pip install -r requirements.txt
+```
+
 ## Dataset
-### The [dataset](https://drive.google.com/file/d/1wpktVV_S7TxmSbABrLr9mL5WsnYU3d8Z/view?usp=share_link) is manually collected with mediapipe and it has 10k examples divided into 10 classes:
+### The dataset is manually collected with mediapipe and it has 10k examples divided into 10 classes:
 For the robotic arm:
 * Up
 * Down
@@ -38,6 +43,8 @@ can be used for another application:
 * Perfect 
 * I love you
 * Good luck
+
+download the dataset [here](https://drive.google.com/file/d/1wpktVV_S7TxmSbABrLr9mL5WsnYU3d8Z/view?usp=share_link)
 
 ## Dataset Sample
 ![](https://github.com/Muhameddemadd/Hand-Gestures-Recognition/blob/master/Readme_imgs/collage%20(1).jpg)
