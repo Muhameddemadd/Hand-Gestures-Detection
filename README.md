@@ -40,7 +40,7 @@ can be used for another application:
 * Good luck
 
 ## Dataset Sample
-![](https://github.com/Muhameddemadd/Hand-Gestures-Recognition/blob/master/Readme_imgs/sample.png)
+![](https://github.com/Muhameddemadd/Hand-Gestures-Recognition/blob/master/Readme_imgs/collage%20(1).jpg)
 
 ## Model Architecture
 The model uses pre-trained ResNet50 and three more layers to train the data:
@@ -52,7 +52,6 @@ The model uses pre-trained ResNet50 and three more layers to train the data:
 ![](https://github.com/Muhameddemadd/Hand-Gestures-Recognition/blob/master/Readme_imgs/summary.png)
 
 ## The pixel grid approach
-Img
 
 By tracking a specific pixel of one landmark of the hand like no.9 which refers to the MIDDLE_FINGER_MCP, we can kow the direction of the hand movement. Assuming that moving right and moving up will increase the values of x and y respectively, For example if the current position of the landmark is (x,y) and the new position is (x+100,y) so the direction of the hand movement is to the right. You can check the whole process in pixel_grid.py 
 
