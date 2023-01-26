@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-### The dataset is manually collected with mediapipe and it has 10k examples divided into 10 classes:
+### The dataset has been manually collected with mediapipe and it has 10k examples divided into 10 classes:
 For the robotic arm:
 * Up
 * Down
@@ -62,7 +62,7 @@ The model uses pre-trained ResNet50 and three more layers to train the data:
 
 ## The pixel grid approach
 
-By tracking a specific pixel of one landmark of the hand like no.9 which refers to the MIDDLE_FINGER_MCP, we can kow the direction of the hand movement. Assuming that moving right and moving up will increase the values of x and y respectively, For example if the current position of the landmark is (x,y) and the new position is (x+100,y) so the direction of the hand movement is to the right. You can check the whole process in pixel_grid.py 
+By tracking a specific pixel of one landmark of the hand like no.9 which refers to the MIDDLE_FINGER_MCP, we can know the direction of the hand movement. Assuming that moving right and moving up will increase the values of x and y respectively, For example if the current position of the landmark is (x,y) and the new position is (x+100,y) so the direction of the hand movement is to the right. You can check the whole process in pixel_grid.py 
 
 ![](https://github.com/Muhameddemadd/Hand-Gestures-Recognition/blob/master/Readme_imgs/hand_landmarks.png)
 
