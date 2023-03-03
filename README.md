@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-### The dataset has been manually collected with mediapipe and it has 10k examples divided into 10 classes:
+### The dataset has been manually collected with mediapipe and it has 4k examples divided into 10 classes:
 For the robotic arm:
 * Up
 * Down
