@@ -16,15 +16,8 @@ counter = 0
 labels = ["up","down", "right", "left","open","close"]
 cap = cv2.VideoCapture(1)
 
-fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('output1.avi', fourcc, 20.0, (640, 480))
-
 
 while True:
-    
-        
-
-
                 
     success, img = cap.read()
     img = cv2.flip(img, 1)
@@ -68,7 +61,6 @@ while True:
         cv2.putText(imgOutput, labels[index], (x, y -26), cv2.FONT_HERSHEY_COMPLEX, 1.7, (255, 255, 255), 2)
         cv2.rectangle(imgOutput, (x-offset, y-offset),(x + w+offset, y + h+offset), (255, 0, 255), 4)
 
-        out.write(imgOutput) 
 
 
 
