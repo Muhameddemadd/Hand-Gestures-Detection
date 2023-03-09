@@ -2,7 +2,9 @@
 
 Hand gestures detection using Tensorflow, Keras and pre-trained model ResNet50 then applying the final output on real-time application.
 
- ![](https://github.com/Muhameddemadd/Hand-Gestures-Recognition/blob/master/Readme_imgs/IMG-2319.gif)
+<p align="center">
+  <img src="https://github.com/Muhameddemadd/Hand-Gestures-Recognition/blob/master/Readme_imgs/IMG-2319.gif" />
+</p>
 
 
 ## Introduction
