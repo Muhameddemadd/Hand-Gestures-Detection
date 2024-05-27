@@ -19,7 +19,7 @@ class Classifier:
                 self.list_labels.append(stripped_line)
             label_file.close()
         else:
-            print("No Labels Found")
+            print("error")
 
     def getPrediction(self, img, draw= True, pos=(50, 50), scale=2, color = (0,255,0)):
         imgS = cv2.resize(img, (224, 224))
