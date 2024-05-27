@@ -68,7 +68,7 @@ while True:
 
         #Directions
         for id in landmark_list:
-            if id[0]==8:
+            if id[0]==9:
                 x = id[1]
                 y = id[2]
                 cv2.circle(img=frame, center=(x,y), radius=10, color=(255, 0, 255),thickness=3)
