@@ -1,4 +1,7 @@
 tensorflow
+keras
 opencv-python
 numpy
 mediapipe
+time
+pyguiauto
