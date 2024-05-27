@@ -8,7 +8,7 @@ import numpy as np
 
 
 #ser = serial.Serial('COM3',115200)
-classifier = Classifier("D:\\hands\\Hand-Gestures-Detection\\Workspace\\models\\arm model\\model.h5","D:\\hands\\Hand-Gestures-Detection\\Workspace\\models\\arm model\\labels.txt" )
+classifier = Classifier("model_path","labels_path" )
 detector = hand_detector()
 offset = 20
 imgSize = 300
