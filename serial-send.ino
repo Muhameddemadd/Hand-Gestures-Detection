@@ -7,7 +7,7 @@ Servo myservo;
 AccelStepper stepper1(AccelStepper::DRIVER, 2, 3);
 AccelStepper stepper2(AccelStepper::DRIVER, 4, 5);
 
-
+//Initial position
 int pos1 = 0;
 int incomingByte; 
 
