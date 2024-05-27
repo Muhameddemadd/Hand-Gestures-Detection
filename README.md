@@ -8,7 +8,7 @@ Hand gestures detection using Tensorflow, Keras and pre-trained model ResNet50 t
 
 
 ## Introduction
-Snap your fingers and make your coffee maker brew you a fresh cup. Wave a hand near your smart TV and switch on your favorite show. Drag your hand down and drop down the curtains. Grab your hand fist to turn off the lights. How great would it be to get things done just by gesturing? It’s not that unrealistic anymore: hand tracking and gesture recognition technologies are penetrating multiple industries. But do we really need capabilities like these? In this project we will discover how to build a Hand Gestures Recognition model then apply it to a real-time application.
+Snap your fingers and make your coffee maker brew you a fresh cup. Wave a hand near your smart TV and switch on your favorite show. Drag your hand down and drop down the curtains. Grab your hand fist to turn off the lights. How great would it be to get things done just by gesturing? It’s not that unrealistic anymore: hand tracking and gesture recognition technologies are penetrating multiple industries. But do we really need capabilities like these? In this project we will discover how to build a Hand gesture recognition model then apply it to a real-time application.
 
 When it comes to real-time AI applications, Processing time and accuracy mean alot. So it’s preferred to try many approaches then choosing the best of them to get the desired results.
  
