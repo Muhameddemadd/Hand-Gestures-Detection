@@ -10,7 +10,7 @@ detector = hand_detector(maxHands=2)
 offset = 20
 imgSize = 300
  
-folder = "D:\hands\pics"
+folder = "dataset_path"
 counter = 0
  
 while True:
